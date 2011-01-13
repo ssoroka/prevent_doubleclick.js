@@ -1,0 +1,5 @@
+include the js file in your project.
+
+Now any link with a prevent_doubleclick class will behave!
+
+prevents double clicks on anything that is sensitive to race conditions; especially checkouts, etc.  The link is re-enabled in 10 seconds in case the requests never completes, to allow the user to try again.
